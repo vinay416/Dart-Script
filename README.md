@@ -1,2 +1,7 @@
 # Dart-Script
-Generate APK using script, generate sentry and APK timestamp script using build_runner
+Build Runner Script
+
+Pubspec packages:
+  build: #release timestamp
+  build_config: ^1.1.2
+  yaml: ^3.1.3

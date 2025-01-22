@@ -1,0 +1,12 @@
+builders:
+  my_timestamp_builder:
+    import: "package:myApp/common/app_core/build_timestamp_tool.dart"
+    builder_factories: ["myTimestampBuilderFactory"]
+    build_extensions: {".dart": [".dart_whatever"]}
+    auto_apply: all_packages
+  
+  my_sentry_script_builder:
+    import: "package:myApp/common/app_core/build_sentry_script_tool.dart"
+    builder_factories: ["mySentryReleaseBuilderFactory"]
+    build_extensions: {".dart": [".sh"]}
+    auto_apply: all_packages
